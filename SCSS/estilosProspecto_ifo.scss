@@ -1,0 +1,76 @@
+@import "variables/colores.scss",
+ "variables/funciones.scss",
+ "variables/botones.scss",
+ "variables/fuentes.scss";
+*{
+    font-family: roboto;
+}
+ body{
+    background: #fafafa;
+}
+.contenedor{
+    padding: 10px;
+    width: 100%;
+   
+    .contenedorDatos{
+       
+        input{
+           
+        }
+        .datosPospectos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            padding: 0px 5px;
+            border: 1px solid rgb(214, 213, 213) ;
+            label{
+                display: flex;
+                margin: auto;
+                width: 50%;
+                padding: 5px;
+                color: rgb(82, 82, 82);
+                margin-right: 5px;
+               font-weight: bold;
+               font-size: 18px;
+               
+              
+            }
+            span{
+                width: 100%;
+                display: block;
+                font-size: 18px;
+                
+
+
+            }
+
+        }
+    }
+    .contenedorRespuesta{
+        label{
+            font-size: 18px;
+            font-weight: bolder;
+            color: rgb(82, 82, 82);
+            box-sizing: border-box;
+            
+        }
+        textarea{
+            width: 100%;
+            outline: none;
+            padding: 10px;
+            resize: none;
+            border-radius: 8px;
+            border: 1px solid rgb(214, 213, 213) ;
+           
+
+        }
+
+    }
+}
+.contenedorBoton{
+    width: 100%;
+    .btnGuardarRegistro{
+        @include BotonFormal(5px,40px,3px);
+    }
+}

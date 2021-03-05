@@ -1,0 +1,197 @@
+.contenedor_formulario {
+  border: solid 2px #ccc;
+  padding: 0px 0px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.divContenDentro{
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.titulo_preguntas {
+  border-bottom: solid 1px #ccc;
+  width: 70%;
+  padding: 0px 30px;
+  font-size: 22px;
+}
+.contenGeneralImg {
+  padding: 0px;
+}
+.contenImg {
+  width: 100%;
+  margin: 0px;
+  height: inherit;
+}
+.contenImg > img {
+  border-radius: 5px;
+  width: 100%;
+  height: inherit;
+  margin: 0px;
+  object-fit: cover;
+}
+.divCaja {
+  padding: 10px 0px;
+}
+.contenGeneralInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  border-top: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  margin-bottom: 20px;
+}
+
+.titulo_evento {
+  text-align: center;
+  width: 100%;
+}
+.contenInfoEvento {
+  width: 80%;
+  text-align: center;
+}
+.form-group {
+  color: #000000;
+}
+.contenRadioButoon {
+  display: block;
+  text-align: left;
+}
+.InfoEvento {
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  padding: 5px 0px;
+  white-space: pre-line;
+}
+label input[type="text"],
+label input[type="tel"],
+label input[type="email"],
+label input[type="number"] {
+  border: solid 1px #457992;
+  width: 100%;
+}
+#txttelefono {
+}
+label input[type="text"]:focus,
+label input[type="tel"]:focus,
+label input[type="email"]:focus,
+label input[type="number"]:focus {
+  border: solid 1px #6f1e86;
+}
+label {
+  color: #000000;
+  width: 90%;
+}
+
+.contenBoton {
+}
+.subContenBoton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subContenBoton > #btn_guardar {
+  width: 35%;
+  height: 50px;
+  box-sizing: border-box;
+  background: #701f87;
+  color: #fff;
+  border-radius: 50px;
+}
+.subContenBoton > #btn_guardar:hover {
+  background: #457992;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .contenedor_formulario {
+    border: solid 1px #ccc;
+    width: 100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .contenGeneralInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .titulo_evento {
+    font-size: 24px;
+  }
+  .contenInfoEvento {
+    width: 100%;
+    text-align: left;
+  }
+
+  .InfoEvento {
+    text-align: left;
+    font-size: 14px;
+    color: #000000;
+    padding: 5px 0px;
+    white-space: normal;
+  }
+  .divCaja2 {
+    margin-top: -30px;
+  }
+  .contenRadioButoon {
+  }
+  .contenRadioButoon label {
+    
+  }
+
+  .contenRadioButoon .contenPorRadio {
+   
+    display: flex;
+  }
+
+  .titulo_preguntas {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .subContenBoton > #btn_guardar {
+    height: 40px;
+    width: 50%;
+  }
+  label {
+    color: #000000;
+    width: 100%;
+  }
+}
+
+
+
+.respuestaOk {
+    
+    top: 75px;
+    display: block;
+    color: #207920;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    background: rgb(23, 156, 23, 0.1);
+    margin-bottom: 20px;
+  }
+  .respuestaError {
+    
+    display: block;
+    top: 75px;
+    color: #792020;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    display: none;
+    width: 100%;
+    text-align: center;
+    background: rgba(156, 23, 23, 0.1);
+    margin-bottom: 20px;
+  }

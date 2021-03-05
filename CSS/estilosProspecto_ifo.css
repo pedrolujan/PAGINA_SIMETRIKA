@@ -1,0 +1,96 @@
+@font-face {
+  font-family: roboto;
+  src: url("../../fuentes/Roboto-Black.ttf");
+}
+
+* {
+  font-family: roboto;
+}
+
+body {
+  background: #fafafa;
+}
+
+.contenedor {
+  padding: 10px;
+  width: 100%;
+}
+
+.contenedor .contenedorDatos .datosPospectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  padding: 0px 5px;
+  border: 1px solid #d6d5d5;
+}
+
+.contenedor .contenedorDatos .datosPospectos label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+  color: #525252;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contenedor .contenedorDatos .datosPospectos span {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+}
+
+.contenedor .contenedorRespuesta label {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #525252;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenedor .contenedorRespuesta textarea {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #d6d5d5;
+}
+
+.contenedorBoton {
+  width: 100%;
+}
+
+.contenedorBoton .btnGuardarRegistro {
+  display: block;
+  padding: 5px 40px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#7b3090), color-stop(#1e73be), to(#7b3090));
+  background-image: linear-gradient(to right, #7b3090, #1e73be, #7b3090);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.contenedorBoton .btnGuardarRegistro:hover {
+  background-position: right;
+}
+/*# sourceMappingURL=estilosProspecto_ifo.css.map */

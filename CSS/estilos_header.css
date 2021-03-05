@@ -1,0 +1,56 @@
+@import url("estilosGenerales.css");
+.header {
+    border-bottom: solid 2px var(--bgcolorEmpresa);
+    height: 70px;
+    top: 0px;
+    position: fixed;
+    background-color: var(--bgColoHeader);
+    z-index: 200;
+   
+}
+.container{
+    position: relative;
+    top: 75px;
+}
+.main-expanded .header{
+width: calc(100% - 250px) ;
+background-color: aquamarine;
+margin: 0px;
+}
+.main-expanded .header .contenAmburgesa{
+}
+.main-expanded .header .contenVacio{
+}
+.logo_empresa {
+    width: 100%;
+    height: 90%;
+    object-fit: scale-down;
+}
+.img_User {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    border: solid 1px #4b4b4b;
+}
+.col-xs-4 > .img_User {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and(max-width: 700px) {
+    .menu-espanded {
+        width: 100%;
+    }
+    .menu-collapsed {
+        width: 0;
+        background: #111;
+    }
+    .main-expanded {
+        margin-left: 0;
+    }
+    .main-expanded .header{
+       
+        }
+
+}

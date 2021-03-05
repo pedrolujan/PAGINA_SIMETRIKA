@@ -1,0 +1,35 @@
+:root {
+    --width: 250px;
+    --padding: 10px;
+    --bgColoHeader: rgb(255,255,255);
+    --bgColoSidebar: rgb(10, 10, 10);
+    --bgcolorEmpresa: rgb(123,48,144);
+    --bgcolorCeleste: rgb(30,115,190);
+    --bgcolorCelesteOpaco: rgb(69,121,146);
+  }
+
+.respuestaOk {    
+  top: 75px;
+  display: block;
+  color: #0dad0d;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  background: rgba(0, 255, 0, 0.1);
+  margin-bottom: 20px;
+}
+.respuestaError {  
+  display: block;
+  top: 75px;
+  color: #dd0606;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  display: none;
+  width: 100%;
+  text-align: center;
+  background: rgba(255, 1, 1, 0.1);
+  margin-bottom: 20px;
+}

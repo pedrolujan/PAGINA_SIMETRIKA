@@ -1,0 +1,75 @@
+@import url("estilosGenerales.css");
+
+.contenedor_dashboard{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conten{
+    
+    height: 180px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.conten .contenInfo_logo{
+margin: 0px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+height: 80%;
+
+}
+.conten .contenEstActual{
+    height: 20%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conten .contenInfo_logo .contenInfo{
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    color: whitesmoke;
+    align-items: center;
+    
+}
+.conten .contenInfo_logo .contenLogo{
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.conten .contenInfo_logo .contenLogo span{
+   font-size: 60px;
+   color: #a8a8a8d0;
+    
+}
+.contenCaja1{
+    background-color: rgb(23,162,183);
+}
+.contenCaja1 .estadoActua1{
+    background-color: rgb(19, 128, 145);
+}
+.contenCaja2{
+    background-color: rgb(39,168,68);
+}
+.contenCaja2 .estadoActua2{
+    background-color: rgb(19, 109, 38);
+}
+.contenCaja3{
+    background-color: rgb(254,192,9);
+   
+}
+.contenCaja3 .contenInfo_logo .contenInfo div{
+  
+    color: #303030;
+}
+.contenCaja3 .estadoActua3{
+    background-color: rgb(187, 144, 14);
+}

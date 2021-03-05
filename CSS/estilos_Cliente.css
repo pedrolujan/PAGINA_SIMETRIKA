@@ -1,0 +1,86 @@
+
+@import url("estilosGenerales.css");
+/* codigo para el cliente*/
+.container{
+    padding: 5px 5px;
+    color: rgb(12, 12, 12);
+    position: relative;
+    top: 70px;
+/*     background-color: rgb(69,121,146); */
+}
+fieldset {
+    border:none;
+}
+.fielset .form-check label{
+    font-size: 14px;
+    border: none;
+    color: #6F1E86;
+    
+}
+.fielset >legend{
+    font-size: 18px;
+}
+#text_buscar{
+    height: 35px;
+    border: none;
+    border-top: solid 1px #6F1E86;
+    border-left: solid 1px #6F1E86;
+    border-bottom: solid 1px #6F1E86;
+    border-radius: 5px 0px 0px 5px ;
+    outline: none;
+}
+.btn_txtBuscar{
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-top: solid 1px #6F1E86;
+    border-right: solid 1px #6F1E86;
+    border-bottom: solid 1px #6F1E86;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px ;
+    outline: none;
+
+}
+
+.btn_txtBuscar> img{
+border: none;
+background: white;
+width: 22px;
+height: 22px;
+}
+#conten_cargar_datos{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    top: 30px;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+#tabla{
+    font-size: 16px;
+    width: 100%;
+    margin: 0px;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+   
+}
+#tabla>thead{
+color: whitesmoke;
+letter-spacing: 2px;
+width: 100%;
+padding: 10px;
+}
+#tabla>thead>tr>th{
+    padding: 10px 20px;
+    background: #6F1E86;
+    width: 100%;
+    font-weight: normal;
+}
+#tabla>tbody>tr>td{
+    padding: 10px 20px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,111 @@
+@import url("estilosGenerales.css");
+
+.mini-header {
+    background-color: var(--bgColoHeader);
+    border-bottom: solid 2px var(--bgcolorEmpresa);
+    margin-bottom: 2px;
+    display: flex;
+    padding: 0px;    
+    padding: 3px 0px;
+ box-sizing: border-box;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mini-header > img {
+   width: 100%;
+    height: 62px;
+}
+.mini-header .closebtn {
+    color: var(--bgcolorEmpresa);
+    font-size: 30px;
+    padding: 0px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--bgColoSidebar);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 999;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+#main{
+    transition: margin-left 0.5s;
+    padding: 0px;
+    margin-top: 70px;
+}
+
+@media screen and(max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/*codigo para el menu lateral*/
+.menu-espanded {
+    width: 250px;
+}
+.menu-espanded .contenedor{
+    margin-left: 250px;
+    background: #002312;;
+}
+.menu-collapsed {
+    width: 0;
+}
+.menu-collapsed .contenedor{
+    margin-left: 0;
+    background: #0be079;;
+}
+.main-expanded {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-expanded ~ .logo_empresa {
+    display: none;
+ }
+ @media only screen and (max-width: 600px) {
+    .menu-espanded {
+        width: 90%;
+    }
+    .menu-collapsed {
+        width: 0;
+    }
+    .main-expanded {
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .menu-espanded .contenedor{
+        margin-left: 0px;
+        background: #baffde;;
+    }
+   
+
+}
+
+
